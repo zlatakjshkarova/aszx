@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+
+
+
+    <div class="content">
+        <div class="inner-block">
+
+
+
+            <p>Товар</p>
+            <input type="text" id="name" class="input" placeholder="наименование">
+
+
+            <p>Цена</p>
+            <input type="number" id="name2" class="input" placeholder="0">
+
+            <p>Категория:</p>
+            <select type="text" id="name3">
+                <option value="продукты">продукты</option>
+                <option value="цифры">цифры</option>
+            </select>
+
+        </div>
+        <button type="button" class='myBtn4' id='myBtn4'>Добавить</button>
+
+    </div>
+
+    <div>расход</div>
+    <div class="total" id="total">0</div>
+    <div>возврат</div>
+    <div class="total2" id="total2">0</div>
+
+    <ul id="list" class="list"></ul>
+
+
+    </div>
+
+    <div class="decor">
+        <div class="canvas">
+            <p class="title">ДИОГРАМА РАСХОДОВ</p>
+            <svg class="chart" width="500" height="500" viewBox="0 0 50 50">
+                <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+                <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+                <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+                <circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+
+            </svg>
+        </div>
+        <div class="legend">
+
+            <ul class="caption-list">
+                <li class="caption-item">продукты</li>
+                <li class="caption-item">фасфуд</li>
+                <li class="caption-item">спорт</li>
+                <li class="caption-item">напитки</li>
+
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="model" id="model">
+        <div class="model-window" id="model-window">
+            <p class="model-msg">Вы уверены, что хотите удалить это хобби?</p>
+            <button id="cenle">Оставить</button>
+            <button id="del">Удалить</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
